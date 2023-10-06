@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    overflow: hidden;
+background-color: black;
+    height: 100px;
+    justify-content: space-between;
+
+   }
+   .logo{
+   
+     margin-top: 2.5px;
+     width: 150px;
+     height: 90px;
+   }
+   label{
+     margin-right: 30px;
+   
+   }
+   .nav_cont{
+     display: flex;
+   align-items: center;
+   color: white;
+   
+   }
+   .Git_icon{
+   display: flex;
+   align-items: center; 
+   }
