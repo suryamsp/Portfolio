@@ -17,7 +17,7 @@ function App() {
   return (
     <div id="home">
 <Top_Bar />
-<Intro />
+  <Intro />
 <About />
 <Service />
 <Skills /> 

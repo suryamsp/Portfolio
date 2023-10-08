@@ -1,4 +1,4 @@
-import './nav_bar.css'
+import './nav_bar.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -8,8 +8,8 @@ export function Top_Bar(){
     return(
         <div className='navbar'>
         <Box >
-      <AppBar  sx={{backgroundColor:"black",}} position="fixed">
-        <Toolbar sx={{ display:"flex", justifyContent:'space-between',height:"100px"}}>
+      <AppBar  sx={{backgroundColor:"black",}} position="static">
+        <Toolbar sx={{ display:"flex", justifyContent:'space-between',}}>
       
         
         <img className='logo' src='img\logo.png'></img>
