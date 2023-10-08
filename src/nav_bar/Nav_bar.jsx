@@ -12,7 +12,7 @@ export function Top_Bar(){
         <Toolbar sx={{ display:"flex", justifyContent:'space-between',}}>
       
         
-        <img className='logo' src='.\public\img\logo.png'></img>
+        <img className='logo' src='img\logo.png'></img>
         <div className='nav_cont'>
           <a className="nav_btn" href="#home" >HOME</a>
           <a className="nav_btn" href="#about">ABOUT</a>
