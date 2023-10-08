@@ -4,7 +4,7 @@ import "./intro.css"
 export function Intro() {
   return (
     <div  className='sec_bar'>
-      <div className='sec_bar_con' data-aos="fade-up">
+      <div className='sec_bar_con' >
         <p className='tit'>SOFTWARE DEVELOPER</p>
         <p className='tit1'> Hey! I Am</p>
         <p className='tit2'>SURYA</p>
