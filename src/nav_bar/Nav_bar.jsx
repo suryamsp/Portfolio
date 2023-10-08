@@ -1,4 +1,4 @@
-import './nav_bar.css';
+import './Nav_bar.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
