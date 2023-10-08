@@ -3,18 +3,20 @@ import  "./contact.css";
 
 export function Contact(){
     return(
-        <div className="big-con">
-            <div className="left-sec">
-            <h2>Newsletter</h2>
-            <p>Let's Work Together</p>
-            <p>Are you imperssed and want aproject done,give a email me any time</p>
+       <div id="contact" className="con_contain">
+         <div className="big-con">
+            <div>
+            <h2 className="con_tit1">Newsletter</h2>
+            <p className="con_tit2">Let's Work Together</p>
+            <p className="con_tit3">Are you imperssed and want aproject done,give a email me any time</p>
             </div>
-          <div>
-            <input></input>
-            <button>SUBSCRIBE NOW</button>
+          <div className="email_con">
+            <input className="con_input" placeholder="Email address " />
+            <button className="con_btn">SUBSCRIBE NOW</button>
           </div>
          
         </div>
+       </div>
     );
 }
 

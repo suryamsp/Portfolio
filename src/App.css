@@ -1,5 +1,12 @@
 body{
   margin: 0px;
-  /* background-color: rgb(119, 116, 121); */
+  background-color: rgb(4, 4, 43);
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+ a{
+  text-decoration: none;
+  color: black;
+ }

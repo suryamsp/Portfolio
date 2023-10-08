@@ -17,4 +17,51 @@ p{
 }
 .con{
     display: flex;
+    justify-content: space-around;
+}
+.details{
+    color: white;
+    margin-left: 20px;
+}
+.form{
+    margin-left: 40px;
+}
+input{
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(54, 54, 99);
+    color:white;
+}
+.line1{
+    width: 250px;
+}
+.line2{
+    width: 540px;
+    margin-top: 10px;
+}
+.line3{
+    margin-top: 10px;
+    width: 540px;
+    height: 120px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(54, 54, 99);
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+.form_btn{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight:bold;
+    color:white;
+    
+    
 }

@@ -15,7 +15,7 @@ function App() {
  
 
   return (
-    <div>
+    <div id="home">
 <Top_Bar />
 <Intro />
 <About />

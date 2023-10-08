@@ -1,7 +1,16 @@
 .sec_bar{
     display: flex;
     height: 550px;
-    background-color: rgb(88, 84, 84);
+    overflow:hidden;
+    position: relative;
+    z-index:1;
+    margin-top:100px;
+  }
+  .sec_bar:before{
+    content: url("./img/background.png");
+    z-index:-1;
+    position:absolute;
+    opacity:0.3;
   }
   .sec_bar_img{
     width: 550px;
@@ -33,7 +42,7 @@ margin-bottom: 20px;
   font-size: 20px;
   color: white;
 }
-button{
+.button{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,15 +53,14 @@ button{
   background-size:cover;
   font-weight: bolder;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .btn_name{
   margin-right: 10px;
 }
 
-.sec_bar{
-  background-image: url("./img/background.png");
-}
 .tit2{
   display: inline-block;
   /* background: linear-gradient(to left,

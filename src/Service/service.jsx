@@ -19,21 +19,24 @@ export function Service() {
   }];
 
   return (
-    <div className="main_con">
-        <h2>WHAT SERVICE I OFFER YOU</h2>
-        <h3>Service</h3>
+    <div className="main_contain" id="service">
+        <div >
+       <div className="ser_con1"> <h2>WHAT SERVICE I OFFER YOU</h2></div>
+        <div className="ser_con2"><h3>Service</h3></div>
+        </div>
        
-{datas.map((dta,index)=>
-    
-     <div key={index}  className="small_con">
+<div className="ser_small">
+  {datas.map((dta,index)=>
+       <div className="ser_contain" key={index}   >
      <img className="web_img" src={dta.img} />
          <h3>{dta.title}</h3>
          <h4>{dta.summary}</h4> 
-     <div>
+     {/* <div>
        <img src="/img/lo.png" />
-     </div>
-     </div>
-  )}
+     </div> */}
+    </div>)}
+
+</div>
     </div>
   );
 }
