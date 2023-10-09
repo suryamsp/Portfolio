@@ -3,8 +3,9 @@ import './message.css';
 export function Message() {
 
   return (
-    <div>
-      <h2 className="ser_con1">I Want To Hear From You</h2>
+<div className='mess_con'>
+<div id="contact" >
+      <h2 className="mess_con1">I Want To Hear From You</h2>
       <h2 className='ser_con2'>Contact Me</h2>
 <div className='con'>
 <div className='details'>
@@ -20,5 +21,6 @@ export function Message() {
 </div>
 </div>
     </div>
+</div>
   );
 }

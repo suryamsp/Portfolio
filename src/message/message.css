@@ -61,7 +61,16 @@ input{
     cursor: pointer;
     margin-bottom: 30px;
     font-weight:bold;
-    color:white;
-    
-    
+    color:white;   
 }
+.mess_con1{
+    display: flex;
+   justify-content: center;
+   color: rgb(7, 155, 7);
+  padding-top: 300x;
+ }
+ .mess_con{
+    padding-top: 50px;
+ }
+
+

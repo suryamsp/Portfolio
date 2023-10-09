@@ -3,7 +3,7 @@ import  "./contact.css";
 
 export function Contact(){
     return(
-       <div id="contact" className="con_contain">
+       <div className="con_contain">
          <div className="big-con">
             <div>
             <h2 className="con_tit1">Newsletter</h2>

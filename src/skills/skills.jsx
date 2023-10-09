@@ -48,16 +48,16 @@ export function Skills() {
     }
 ];
   return (
-    <div id="skill">
-    <h2  className="ser_con1">My Skills Progress so far</h2>
-    <h3  className="ser_con2">My Skills</h3>
+    <div className="skill_contain">
+    <h2  className="skill_con1">My Skills Progress so far</h2>
+    <h3  className="skill_con2">My Skills</h3>
     <div className="container">
   <Swiper
       // install Swiper modules
       modules={[Autoplay]}
       autoplay={{ delay: 1000,disableOnInteraction: false}}
       spaceBetween={50}
-      slidesPerView={6}
+      slidesPerView={5}
       loop={true}
    
     >
@@ -66,7 +66,7 @@ export function Skills() {
         <h3>{dta.tit}</h3>
     </div></SwiperSlide>)}
     </Swiper>
-  </div>
+  </div><div id="work" ></div>
     </div>
   );
 }

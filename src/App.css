@@ -5,8 +5,13 @@ body{
 
 html {
   scroll-behavior: smooth;
+
  }
  a{
   text-decoration: none;
   color: black;
+  font-weight:bold ;
+ }
+.nav_btn:hover{
+  color: green;
  }

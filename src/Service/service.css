@@ -1,10 +1,12 @@
-
+.main_contain{
+    padding-top: 100px;
+}
 .ser_contain{
  
     margin-bottom: 10px;
     width: 280px;
     border-radius: 10px ;
-    padding: 10px 10px;
+    padding: 30px 10px;
     display: flex;
     height: 240px;
     overflow: hidden;

@@ -1,3 +1,7 @@
+.skill_contain{
+  padding: 100px;
+}
+
 .skill-con{
   margin-bottom: 10px;
   margin-top:20px;
@@ -15,6 +19,7 @@
   background-color: rgb(54, 54, 99);
   margin: 20px;
   color: white;
+
 
 }
 .circle{
@@ -35,4 +40,17 @@
 .container{
   display: flex;
   gap: 10px;
+}
+.skill_con1,.skill_con2{
+  display: flex;
+ justify-content: center;
+}
+.skill_con1{
+   color: rgb(7, 155, 7);
+   
+}
+.skill_con2{
+   color: white;
+   font-size: 30px;
+
 }

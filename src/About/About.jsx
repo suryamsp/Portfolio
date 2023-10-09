@@ -3,7 +3,8 @@ import './About.css'
 
 export function About() {
   return (
-    <div id="about" className='Third_bar'>
+
+<div id="about"  className='Third_bar'>
       <div>
         <img className='Third_bar_img' src='./img/pngegg.png' />
       </div>
@@ -15,9 +16,8 @@ export function About() {
           href="https://drive.google.com/drive/my-drive"
           download="surya_resume.pdf"
           target="_blank"
-
         >DOWNLOAD CV <DownloadIcon /></a>
       </div>
-    </div>
+</div>
   );
 }

@@ -7,8 +7,8 @@ import Toolbar from '@mui/material/Toolbar';
 export function Top_Bar(){
     return(
         <div className='navbar'>
-        <Box >
-      <AppBar  sx={{backgroundColor:"black",}} position="static">
+        <Box sx={{ flexGrow: 1 }}>
+      <AppBar  sx={{backgroundColor:"black",}} position="fixed">
         <Toolbar sx={{ display:"flex", justifyContent:'space-between',}}>
       
         
@@ -16,6 +16,7 @@ export function Top_Bar(){
         <div className='nav_cont'>
           <a className="nav_btn" href="#home" >HOME</a>
           <a className="nav_btn" href="#about">ABOUT</a>
+          <a className="nav_btn" href="#service">SERVICE</a>
           <a className="nav_btn" href="#skill">SKILLS</a>
           <a className="nav_btn" href="#work">MY WORK</a>
           <a className="nav_btn" href="#contact">CONTACT</a>

@@ -1,7 +1,7 @@
 
   .Third_bar{
     display: flex;
-    height: 550px;
+    height: 690px;
     display: flex;
     position:relative;  
     z-index:1;
@@ -17,6 +17,8 @@
   .Third_bar_img{
     width: 650px;
     height: 500px;
+    margin-top: 150px
+
   }
   .Third_bar_con{
     margin: 80px 80px auto 50px;
@@ -27,6 +29,7 @@ font-weight: bold;
 color: rgb(7, 155, 7);
     font-weight: bold;
     margin-bottom: 20px;
+    margin-top: 150px
   }
   
   .titl2{
@@ -56,4 +59,7 @@ color: rgb(7, 155, 7);
 }
 label{
   color: yellowgreen;
+}
+.btns:hover{
+  transform: scale(1.1); 
 }

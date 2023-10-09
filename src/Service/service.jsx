@@ -36,7 +36,7 @@ export function Service() {
      </div> */}
     </div>)}
 
-</div>
+</div><div id="skill"></div>
     </div>
   );
 }
