@@ -47,10 +47,12 @@
 }
 .skill_con1{
    color: rgb(7, 155, 7);
+   font-size: 30px;
    
 }
 .skill_con2{
    color: white;
    font-size: 30px;
+   margin-bottom: 30px;
 
 }

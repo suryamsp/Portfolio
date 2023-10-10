@@ -1,6 +1,6 @@
 import "./service.css"
 
-export function Service() {
+export function Service({sty}) {
 
   const datas=[{
     "img":"/img/web.png",
@@ -21,16 +21,16 @@ export function Service() {
   return (
     <div className="main_contain" id="service">
         <div >
-       <div className="ser_con1"> <h2>WHAT SERVICE I OFFER YOU</h2></div>
-        <div className="ser_con2"><h3>Service</h3></div>
+       <div > <h2 className="ser_con1">WHAT SERVICE I OFFER YOU</h2></div>
+        <div className="ser_con2"style={sty}><h3>Service</h3></div>
         </div>
        
 <div className="ser_small">
   {datas.map((dta,index)=>
        <div className="ser_contain" key={index}   >
      <img className="web_img" src={dta.img} />
-         <h3>{dta.title}</h3>
-         <h4>{dta.summary}</h4> 
+         <h2>{dta.title}</h2>
+         <p>{dta.summary}</p> 
      {/* <div>
        <img src="/img/lo.png" />
      </div> */}

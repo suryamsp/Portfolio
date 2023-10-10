@@ -24,7 +24,7 @@
     margin: 80px 80px auto 50px;
   }
   .titl1{
-    font-size: 25px;
+    font-size: 30px;
 font-weight: bold;
 color: rgb(7, 155, 7);
     font-weight: bold;
@@ -58,7 +58,7 @@ color: rgb(7, 155, 7);
   cursor: pointer;
 }
 label{
-  color: yellowgreen;
+  color: rgb(191, 152, 11);
 }
 .btns:hover{
   transform: scale(1.1); 

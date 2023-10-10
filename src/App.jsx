@@ -10,21 +10,37 @@ import { Skills } from './skills/skills';
 import { Work } from './work/work';
 import { Contact } from './contact/contact';
 import { Message } from './message/Message';
+import { ThemeProvider, createTheme } from '@mui/material';
+import Paper from '@mui/material/Paper';
+
 
 function App() {
- 
+  const [mode,setmode]=useState("dark");
+  const darkTheme =createTheme({
+    palette: {
+      mode: mode,
+    },
+  });
+
+  const sty={
+    color: mode=="dark" ? "white" : "black"
+  }
 
   return (
+    <ThemeProvider theme={darkTheme}>
+    <Paper  elevation={3} >
     <div id="home">
-<Top_Bar />
-  <Intro />
-<About />
-<Service />
-<Skills /> 
-<Work />
- <Contact />
-<Message />
+<Top_Bar mode={mode} setmode={setmode} />
+  <Intro sty={sty} />
+<About  sty={sty} />
+<Service sty={sty}  />
+<Skills  sty={sty} /> 
+<Work  sty={sty} />
+ <Contact  sty={sty} />
+<Message  sty={sty} />
    </div>
+   </Paper >
+   </ThemeProvider>
   )
 }
 

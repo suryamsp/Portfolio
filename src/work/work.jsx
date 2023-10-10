@@ -6,7 +6,7 @@ import { Autoplay, Navigation, Pagination} from "swiper/modules";
 import 'swiper/css/bundle';
 
 
-export function Work(){
+export function Work({sty}){
 
     const work=[{
         "imge":"./img/Untitled.png",
@@ -42,17 +42,17 @@ export function Work(){
         },
 ]
     return(
-        <div className='work-con'>
+        <div className='work-cont'>
               <h2  className="ser_con1">Check Out My Reacet Projects</h2>
-         <h3  className="ser_con2">My Work</h3>
+         <h3  className="ser_con2" style={sty}>My Work</h3>
            <div className="work_con">
          
             <Swiper
       // install Swiper modules
       modules={[Autoplay, Navigation, Pagination]}
-      spaceBetween={50}
+      spaceBetween={20}
       slidesPerView={3}
-      pagination={{ clickable: true }}
+
       loop={true}
       >  {work.map((dta,index)=>( <SwiperSlide key={index} ><div key={index} className="cont">
       <img className="work_img" src={dta.imge} />

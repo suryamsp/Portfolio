@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 // Import Swiper styles
 import 'swiper/css/bundle';
 
-export function Skills() {
+export function Skills({sty}) {
 
     const img=[{
         "img":"/img/HTML.png",
@@ -50,14 +50,14 @@ export function Skills() {
   return (
     <div className="skill_contain">
     <h2  className="skill_con1">My Skills Progress so far</h2>
-    <h3  className="skill_con2">My Skills</h3>
+    <h3  className="skill_con2"style={sty}>My Skills</h3>
     <div className="container">
   <Swiper
       // install Swiper modules
       modules={[Autoplay]}
       autoplay={{ delay: 1000,disableOnInteraction: false}}
-      spaceBetween={50}
-      slidesPerView={5}
+      spaceBetween={0}
+      slidesPerView={6}
       loop={true}
    
     >

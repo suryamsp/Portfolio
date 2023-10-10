@@ -3,8 +3,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
+import Button from '@mui/material/Button';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
 
-export function Top_Bar(){
+
+export function Top_Bar({mode,setmode}){
+  
     return(
         <div className='navbar'>
         <Box sx={{ flexGrow: 1 }}>
@@ -21,6 +26,9 @@ export function Top_Bar(){
           <a className="nav_btn" href="#work">MY WORK</a>
           <a className="nav_btn" href="#contact">CONTACT</a>
          <a className='Git_icon' href='https://github.com/dashboard' target="_blank"> <GitHubIcon sx={{ fontSize: "40px", marginRight: "100px" }} /></a>
+         <Button sx={{marginLeft:"auto"}} onClick={()=> setmode(mode=="light" ? "dark" : "light")} color="inherit"
+          
+          >{mode== "light" ? <Brightness4Icon sx={{fontSize:"40px"}} /> : <Brightness7Icon sx={{fontSize:"40px"}} /> }  </Button>
         </div>
       
     
