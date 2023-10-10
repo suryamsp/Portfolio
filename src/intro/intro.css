@@ -7,7 +7,7 @@
     z-index:1;
   }
   .sec_bar:before{
-    content: url("./img/background.png");
+    content: url("/img/background.png");
     z-index:-1;
     position:absolute;
     opacity:0.3;
@@ -53,7 +53,7 @@ margin-bottom: 20px;
   padding: 20px;
   border-radius: 50px;
   width: 200px;
-  background-image: url("./img/multi1.jpg");
+  background-image: url("/img/multi1.jpg");
   background-size:cover;
   font-weight: bolder;
   cursor: pointer;
@@ -67,7 +67,7 @@ margin-bottom: 20px;
 
 .tit2{
   display: flex;
-  background-image: url('./img/multi3.jpg');
+  background-image: url('/img/multi3.jpg');
   -webkit-background-clip: text;
   color: transparent;
   font-size:80px;
