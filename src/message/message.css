@@ -75,4 +75,6 @@ input{
     padding-top: 50px;
  }
 
-
+.form_btn:hover{
+    transform: scale(1.1); 
+  }

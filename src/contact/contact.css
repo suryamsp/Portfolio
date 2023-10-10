@@ -45,3 +45,6 @@
     cursor: pointer;
     color:white;
 }
+.con_btn:hover{
+    transform: scale(1.1); 
+  }
