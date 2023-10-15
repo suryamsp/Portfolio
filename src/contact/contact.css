@@ -1,28 +1,40 @@
 .con_contain{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    height: 300px;
+    overflow:hidden;
+    position: relative;
+    z-index:1;
 
 }
+  .con_contain:before{
+      content: url('./img/multi1.jpg');
+      position:absolute;
+      z-index:-1;
+      opacity:0.3;
+   
 
+  }
 .big-con{
-    display: flex;
+ display: flex;
     width: 1200px;
-    height: 200px;
+    height: 250px;
     padding: 5px 60px 10px 30px;
     position: relative;
     color: white;
     background: black;
     border-radius: 20px;
 }
-
+.small-con{
+    width: 500px;
+}
 .con_tit1{
     color: rgb(7, 155, 7);
     font-size: 30px;
     margin: 15px;
 }
 .con_tit2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin: 15px;
 }
@@ -30,7 +42,7 @@
     margin: 15px;
 }
 .con_input{
-    margin: 70px 0px 0px 150px;
+    margin: 70px 0px 0px 100px;
     padding: 20px;
     width: 300px;
     border-radius: 50px;
@@ -48,3 +60,45 @@
 .con_btn:hover{
     transform: scale(1.1); 
   }
+
+
+  @media only screen and (max-width: 1050px){
+    .big-con{
+        width: 750px;
+        height: 250px;
+    }
+    .con_tit1{
+        font-size: 25px;
+        margin: 15px;
+    }
+    .con_tit2{
+        font-size: 30px;
+    }
+    .small-con{
+        width:500px;
+    }
+    .con_input{
+        margin: 70px 0px 0px 0px;
+    }
+    .con_btn{
+        margin-left: 70px;
+    }
+
+  }
+  @media screen and (max-width: 600px){
+    .big-con{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 450px;
+    }
+    .small-con{
+        width:350px;
+    }
+    .con_input{
+        margin: 50px 0px 0px 0px;
+    }
+
+
+  }
+    

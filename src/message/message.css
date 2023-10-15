@@ -1,3 +1,16 @@
+.mess_con{
+    overflow:hidden;
+    position: relative;
+    z-index:1;
+}
+.mess_con:before{
+    content: url('./img/multi1.jpg');
+    position:absolute;
+    z-index:-1;
+    opacity:0.3;
+    overflow: hidden;
+
+}
 .left-side{
     display: flex;
     align-items: center;
@@ -20,7 +33,7 @@ p{
     justify-content: space-around;
 }
 .details{
-    color: white;
+    color: black;
     margin-left: 20px;
 }
 .form{
@@ -35,7 +48,7 @@ input{
     color:white;
 }
 .line1{
-    width: 250px;
+    width: 265px;
 }
 .line2{
     width: 540px;
@@ -67,14 +80,58 @@ input{
     display: flex;
    justify-content: center;
    color: rgb(7, 155, 7);
-  padding-top: 300x;
   font-size:30px;
+  margin-top: 50px;
  }
 
- .mess_con{
-    padding-top: 50px;
- }
+
 
 .form_btn:hover{
     transform: scale(1.1); 
   }
+  @media only screen and (max-width: 1050px){
+    .line1{
+        width: 220px;
+    }
+    .line2{
+        width: 450px;
+    }
+    .line3{
+        width: 450px;
+    }
+    .con{
+        display: flex;
+        justify-content: flex-start;
+    }
+  }
+
+  @media only screen and (max-width:600px){
+    .line1{
+        width: 350px;
+        margin-top: 5px;
+    }
+    .line2{
+        width: 350px;
+        margin-top: 5px;
+    }
+    .line3{
+        width: 350px;
+        margin-top: 5px;
+        
+    }
+    .con{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+    }
+    .form_btn{
+        margin-top: 5px;
+    }
+    .details{
+        margin-top: 20px;
+    }
+  }
+  

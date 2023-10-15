@@ -48,25 +48,35 @@ export function Skills({sty}) {
     }
 ];
   return (
-    <div className="skill_contain">
+    <div id="skill" className="skill_contain">
     <h2  className="skill_con1">My Skills Progress so far</h2>
-    <h3  className="skill_con2"style={sty}>My Skills</h3>
+    <h3  className="skill_con2">My Skills</h3>
     <div className="container">
   <Swiper
       // install Swiper modules
       modules={[Autoplay]}
       autoplay={{ delay: 1000,disableOnInteraction: false}}
       spaceBetween={0}
-      slidesPerView={6}
+      breakpoints={{
+           50: {
+            slidesPerView: 2,
+          },  
+          650: {
+            slidesPerView: 4,
+          },
+          1000: {
+            slidesPerView: 6,
+          }    
+      }}
       loop={true}
    
     >
           {img.map((dta,index)=> <SwiperSlide key={index}  ><div key={index} className="skill-con">
         <div className="circle"><img className='skill_img' src={dta.img} /></div>
-        <h3>{dta.tit}</h3>
+        <h3 className="skill-tit">{dta.tit}</h3>
     </div></SwiperSlide>)}
     </Swiper>
-  </div><div id="work" ></div>
+  </div>
     </div>
   );
 }

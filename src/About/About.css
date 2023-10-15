@@ -6,8 +6,6 @@
     display: flex;
     position:relative;  
     z-index:1;
-
-    
                                                                                   
   }
   .Third_bar:before{
@@ -25,7 +23,7 @@
 
   }
   .Third_bar_con{
-    margin: 80px 80px auto 50px;
+    margin: 20px 80px auto 50px;
   }
   .titl1{
     font-size: 30px;
@@ -40,11 +38,11 @@ color: rgb(7, 155, 7);
    font-weight: bold;
     font-size: 40px;
     margin-bottom: 20px;
-    color: white;
+    color: black;
   }
   .titl3{
     font-size: 18px ;
-    color: white;
+    color: black;
   }
 .btns{
   margin-top: 50px;
@@ -55,15 +53,78 @@ color: rgb(7, 155, 7);
   justify-content: center;
   padding: 20px;
   border-radius: 50px;
-  width: 200px;
+  width: 250px;
   background-image: url("./img/multi4.jpg");
   background-size:cover;
   font-weight: bolder;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 label{
   color: rgb(191, 152, 11);
 }
 .btns:hover{
   transform: scale(1.1); 
+}
+
+@media only screen and (max-width:1050px){
+  .Third_bar{
+    height: 550px;                                                                
+  }
+
+  .Third_bar_img{
+    width: 450px;
+    height: 450px;
+    margin-top: 50px
+  }
+  .Third_bar_con{
+    margin: 80px 10px auto 10px;
+  }
+  .titl1{
+    margin-top: 0px
+  }
+  .titl2{
+    font-size: 30px;
+  }
+
+.btns{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width:600px){
+  .Third_bar{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 910px;                                                                
+  }
+
+  .Third_bar_img{
+    width: 350px;
+    height: 300px;
+    margin-top: 30px
+  }
+  .Third_bar_con{
+    margin: 50px 10px 10px 10px;
+  }
+  .titl1{
+    margin-top: 0px
+  }
+  .titl2{
+    font-size: 25px;
+  }
+
+.btns{
+  margin-top: 50px;
+}
+.titl1,.titl2,.titl3,.about-btn{
+  display: flex;
+  justify-content: center;
+}
+.titl2,.titl3{
+  margin-left: 20px;
+}
+.titl3{
+  display: flex;
+}
 }

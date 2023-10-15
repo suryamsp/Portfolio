@@ -42,17 +42,26 @@ export function Work({sty}){
         },
 ]
     return(
-        <div className='work-cont'>
+        <div id="work"  className='work-cont'>
               <h2  className="ser_con1">Check Out My Reacet Projects</h2>
-         <h3  className="ser_con2" style={sty}>My Work</h3>
+         <h3  className="ser_con2" >My Work</h3>
            <div className="work_con">
          
             <Swiper
       // install Swiper modules
       modules={[Autoplay, Navigation, Pagination]}
-      spaceBetween={20}
-      slidesPerView={3}
-
+      spaceBetween={10}
+      breakpoints={{
+        50: {
+         slidesPerView: 1,
+       },  
+       650: {
+         slidesPerView: 2,
+       },
+       1000: {
+         slidesPerView: 3,
+       }    
+   }}
       loop={true}
       >  {work.map((dta,index)=>( <SwiperSlide key={index} ><div key={index} className="cont">
       <img className="work_img" src={dta.imge} />

@@ -22,21 +22,21 @@ export function Service({sty}) {
     <div className="main_contain" id="service">
         <div >
        <div > <h2 className="ser_con1">WHAT SERVICE I OFFER YOU</h2></div>
-        <div className="ser_con2"style={sty}><h3>Service</h3></div>
+        <div className="ser_con2"><h3>Service</h3></div>
         </div>
        
 <div className="ser_small">
   {datas.map((dta,index)=>
        <div className="ser_contain" key={index}   >
      <img className="web_img" src={dta.img} />
-         <h2>{dta.title}</h2>
-         <p>{dta.summary}</p> 
+         <h2 className="ser-tit1">{dta.title}</h2>
+         <p className="ser-tit2">{dta.summary}</p> 
      {/* <div>
        <img src="/img/lo.png" />
      </div> */}
     </div>)}
 
-</div><div id="skill"></div>
+</div>
     </div>
   );
 }

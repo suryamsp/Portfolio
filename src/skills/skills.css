@@ -1,5 +1,13 @@
 .skill_contain{
-  padding: 100px;
+  overflow:hidden;
+    position: relative;
+    z-index:1;
+}
+.skill_contain:before{
+  content: url('./img/multi1.jpg');
+  position:absolute;
+  z-index:-1;
+  opacity:0.3;
 }
 
 .skill-con{
@@ -46,13 +54,28 @@
  justify-content: center;
 }
 .skill_con1{
+  padding-top: 100px;
    color: rgb(7, 155, 7);
    font-size: 30px;
    
 }
 .skill_con2{
-   color: white;
+   color: black;
    font-size: 30px;
    margin-bottom: 30px;
+}
+.skill-tit{
+  font-size: 15px;
+}
 
+@media only screen and (max-width: 1050px){
+  .skill_contain{
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .skill_contain{
+    padding: 20px;
+  }
 }
