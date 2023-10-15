@@ -1,11 +1,13 @@
 
   .Third_bar{
     display: flex;
+    overflow: hidden;
     height: 690px;
     display: flex;
     position:relative;  
     z-index:1;
-    overflow: hidden;
+
+    
                                                                                   
   }
   .Third_bar:before{
@@ -13,6 +15,7 @@
       position:absolute;
       z-index:-1;
       opacity:0.3;
+      overflow: hidden;
 
   }
   .Third_bar_img{
