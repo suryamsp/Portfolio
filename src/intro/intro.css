@@ -1,5 +1,5 @@
 .sec_bar{
-  padding-top: 90px;
+
     display: flex;
     height: 600px;
     overflow:hidden;
@@ -75,4 +75,68 @@ margin-bottom: 20px;
 }
 .button:hover{
   transform: scale(1.1); 
+}
+ 
+@media only screen and (max-width: 830px) {
+
+  .sec_bar_img{
+    margin-top: 170px;
+    width: 450px;
+    height: 350px;
+    
+  }
+  .sec_bar_con{
+    margin: 130px 40px auto 40px; 
+  }
+  
+  .tit{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(220, 89, 23);
+  }
+  .tit2{
+    margin-bottom: 10px;
+  }
+
+.tit3{
+margin: 0px;
+}
+.intro-btn{
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .sec_bar{
+display: flex;
+flex-direction: column;
+height: 1000px;
+  }
+  .sec_bar_img{
+    margin: 0px;
+    width: 400px;
+    height: 300px;
+    
+  }
+  .sec_bar_con{
+    margin: 130px 5px 40px 5px; 
+  }
+  
+  .tit{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(220, 89, 23);
+  }
+
+.tit3{
+  margin: 0px 10px 0px 10px;
+}
+.intro-btn{
+  margin-top: 40px;
+}
+.tit,.tit1,.tit2,.tit3,.intro-btn{
+  display: flex;
+  justify-content: center;
+}
 }

@@ -27,8 +27,7 @@ function App() {
   }
 
   return (
-    <ThemeProvider theme={darkTheme}>
-    <Paper  elevation={3} >
+   
     <div id="home">
 <Top_Bar mode={mode} setmode={setmode} />
   <Intro sty={sty} />
@@ -39,8 +38,7 @@ function App() {
  <Contact  sty={sty} />
 <Message  sty={sty} />
    </div>
-   </Paper >
-   </ThemeProvider>
+ 
   )
 }
 

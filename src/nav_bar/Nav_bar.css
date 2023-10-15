@@ -1,32 +1,22 @@
 
    .logo{
-   
-     margin-top: 2.5px;
+
      width: 150px;
      height: 90px;
    }
-  .nav_btn{
-     margin-right: 30px;
-     background-color:black;
-     color: white;
-     cursor: pointer;
-     text-decoration: none;
-   
-   }
-  
-   .nav_cont{
-     display: flex;
-   align-items: center;
-   color: white;
-   
-   }
-   .Git_icon{
-   display: flex;
-   align-items: center; 
-   color: white;
+   i{
+ 
+   color: black;
+   font-size:30px; 
+   margin-left:10px;
+   margin-right:100px;
    }
    html {
     scroll-behavior: smooth;
    }
-  
-   
+.nav-link{
+  font-weight:bold;
+}
+.navbar{
+  padding: 0px;
+}

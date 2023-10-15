@@ -1,41 +1,27 @@
 import './Nav_bar.css';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
-import Brightness7Icon from '@mui/icons-material/Brightness7';
-import Brightness4Icon from '@mui/icons-material/Brightness4';
-
 
 export function Top_Bar({mode,setmode}){
   
     return(
-        <div className='navbar'>
-        <Box sx={{ flexGrow: 1 }}>
-      <AppBar  sx={{backgroundColor:"black",}} position="fixed">
-        <Toolbar sx={{ display:"flex", justifyContent:'space-between',}}>
-      
-        
-        <img className='logo' src='./img/logo.png'></img>
-        <div className='nav_cont'>
-          <a className="nav_btn" href="#home" >HOME</a>
-          <a className="nav_btn" href="#about">ABOUT</a>
-          <a className="nav_btn" href="#service">SERVICE</a>
-          <a className="nav_btn" href="#skill">SKILLS</a>
-          <a className="nav_btn" href="#work">MY WORK</a>
-          <a className="nav_btn" href="#contact">CONTACT</a>
-         <a className='Git_icon' href='https://github.com/dashboard' target="_blank"> <GitHubIcon sx={{ fontSize: "40px", marginRight: "100px" }} /></a>
-         <Button sx={{marginLeft:"auto"}} onClick={()=> setmode(mode=="light" ? "dark" : "light")} color="inherit"
-          
-          >{mode== "light" ? <Brightness4Icon sx={{fontSize:"40px"}} /> : <Brightness7Icon sx={{fontSize:"40px"}} /> }  </Button>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  fixed-top">
+      <div class="container-fluid">
+      <img className='logo' src='./img/logo.png'></img>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link" href="#service">SERVICE</a>
+            <a class="nav-link" href="#skill">SKILLS</a>
+            <a class="nav-link" href="#work">MY WORK</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
+          <i className="bi bi-github" ></i>
+          </div>
         </div>
-      
-    
-         
-        </Toolbar>
-      </AppBar>
-    </Box>
-    </div>
+      </div>
+    </nav>
 );
 }
