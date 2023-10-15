@@ -79,7 +79,7 @@ margin-bottom: 10px;
   transform: scale(1.1); 
 }
  
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 880px) {
 
   .sec_bar_img{
     margin-top: 170px;
