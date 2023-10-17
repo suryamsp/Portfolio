@@ -69,13 +69,13 @@
 }
 
 @media only screen and (max-width: 1050px){
-  .skill_contain{
+  /* .skill_contain{
     padding: 40px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px){
-  .skill_contain{
-    padding: 20px;
+  .container{ 
+    gap: 0px;
   }
 }

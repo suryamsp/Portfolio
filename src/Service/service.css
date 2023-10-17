@@ -61,10 +61,16 @@ transform:scale(1.1)
 }
 
 @media only screen and (max-width:600px){
+    .main_contain:before{
+        transform:scaleY(1.5) ; 
+    }
     .ser_small{
         display:flex;
         flex-direction:column;
         align-items: center;
+    }
+    .main_contain{
+        height: 1250px;
     }
 
     .ser_con1{

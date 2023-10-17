@@ -2,8 +2,7 @@
   .Third_bar{
     display: flex;
     overflow: hidden;
-    height: 690px;
-    display: flex;
+    height: 680px;
     position:relative;  
     z-index:1;
                                                                                   
@@ -13,7 +12,6 @@
       position:absolute;
       z-index:-1;
       opacity:0.3;
-      overflow: hidden;
 
   }
   .Third_bar_img{
@@ -96,16 +94,21 @@ label{
   .Third_bar{
     display: flex;
     flex-direction: column-reverse;
-    height: 910px;                                                                
-  }
+    height: 800px; 
 
+                                                              
+  }
+  .Third_bar:before{
+    transform:scaleY(1.5) ; 
+
+}
   .Third_bar_img{
     width: 350px;
     height: 300px;
-    margin-top: 30px
+    margin: 30px 0px 0px 0px; 
   }
   .Third_bar_con{
-    margin: 50px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
   }
   .titl1{
     margin-top: 0px

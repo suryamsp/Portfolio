@@ -84,14 +84,24 @@ p{
     
 .work_con{
     margin-top: 20px;
-    padding: 10px;
+    padding: 0px;
         
     }
  }   
 
  @media only screen and (max-width:600px){ 
     .work_con{
-       margin-left: 7px;
-            
+       margin-left: 0px; 
+       padding-left: 15px;       
+        }
+        .cont{
+            width: 330px;
+            height: 460px;          
+        }
+        .work_img{
+            width:310px;       
+        }
+        .work-cont{
+            height: 700px;
         }
      }   

@@ -133,5 +133,10 @@ input{
     .details{
         margin-top: 20px;
     }
+    .form{
+        margin:0px;
+        margin-left: 5px;
+    }
+
   }
   
