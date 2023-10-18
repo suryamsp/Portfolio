@@ -6,7 +6,7 @@
     z-index:1;
 }
   .con_contain:before{
-      content: url('./img/multi1.jpg');
+      content: url('/img/multi1.jpg');
       position:absolute;
       z-index:-1;
       opacity:0.3;
@@ -62,8 +62,12 @@
 
   @media only screen and (max-width: 1050px){
     .big-con{
-        width: 750px;
+        width: 780px;
         height: 250px;
+        margin-top: 40px;
+    }
+    .con_contain{
+        height: 350px;
     }
     .con_tit1{
         font-size: 25px;
@@ -89,6 +93,7 @@
         flex-direction: column;
         width: 340px;
         height: 450px;
+        margin-top: 20px;
     }
     .small-con{
         width:350px;
@@ -99,6 +104,10 @@
 
 .con_contain{
     height: 500px;
+}.big-con{
+    padding: 5px 5px 5px 25px;
+    display: flex;
+    align-items: center;
 }
   }
     

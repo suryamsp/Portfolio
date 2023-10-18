@@ -4,7 +4,7 @@
     z-index:1;
 }
 .mess_con:before{
-    content: url('./img/multi1.jpg');
+    content: url('/img/multi1.jpg');
     position:absolute;
     z-index:-1;
     opacity:0.3;
@@ -119,10 +119,7 @@ input{
         margin-top: 5px;
         
     }
-    .con{
-        display: flex;
-        justify-content: flex-start;
-    }
+
     .con{
         display: flex;
         flex-direction: column;
@@ -135,7 +132,10 @@ input{
     }
     .form{
         margin:0px;
-        margin-left: 5px;
+        width: 380px;
+    }
+    .form{
+padding: 20px;
     }
 
   }

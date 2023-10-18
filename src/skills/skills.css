@@ -4,7 +4,7 @@
     z-index:1;
 }
 .skill_contain:before{
-  content: url('./img/multi1.jpg');
+  content: url('/img/multi1.jpg');
   position:absolute;
   z-index:-1;
   opacity:0.3;

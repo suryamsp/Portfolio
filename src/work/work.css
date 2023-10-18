@@ -50,7 +50,7 @@ p{
     font-size: 17px;
 }
 .work_con1{
-    background-image: url('./img/multi3.jpg');
+    background-image: url('/img/multi3.jpg');
     -webkit-background-clip: text;
     color: transparent;
     font-weight: bold;
@@ -84,7 +84,7 @@ p{
     
 .work_con{
     margin-top: 20px;
-    padding: 0px;
+    padding: 20px;
         
     }
  }   
@@ -92,7 +92,7 @@ p{
  @media only screen and (max-width:600px){ 
     .work_con{
        margin-left: 0px; 
-       padding-left: 15px;       
+       padding-left: 30px;       
         }
         .cont{
             width: 330px;
