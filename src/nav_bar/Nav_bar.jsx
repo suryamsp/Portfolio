@@ -4,7 +4,7 @@ export function Top_Bar({mode,setmode}){
   
     return(
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary  fixed-top">
+    <nav class="navbar navbar-expand-md bg-body-tertiary  fixed-top">
       <div class="container-fluid">
       <img className='logo' src='./img/logo.png'></img>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
