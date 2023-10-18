@@ -60,9 +60,9 @@
   }
 
 
-  @media only screen and (max-width: 970px){
+  @media only screen and (max-width: 1000px){
     .big-con{
-        width: 820px;
+        width: 880px;
         height: 250px;
         margin-top: 40px;
     }
