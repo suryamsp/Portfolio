@@ -101,7 +101,8 @@ input{
     }
     .con{
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
+        margin-right: 50px;
     }
   }
 
