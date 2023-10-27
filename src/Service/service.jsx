@@ -22,7 +22,7 @@ export function Service({sty}) {
     <div className="main_contain" id="service">
         <div >
        <div > <h2 className="ser_con1">WHAT SERVICE I OFFER YOU</h2></div>
-        <div className="ser_con2"><h3>Service</h3></div>
+        <div className="ser_con2"style={sty}><h3>Service</h3></div>
         </div>
        
 <div className="ser_small">

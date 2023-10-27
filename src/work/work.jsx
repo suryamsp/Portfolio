@@ -44,7 +44,7 @@ export function Work({sty}){
     return(
         <div id="work"  className='work-cont'>
               <h2  className="ser_con1">Check Out My Reacet Projects</h2>
-         <h3  className="ser_con2" >My Work</h3>
+         <h3  className="ser_con2" style={sty} >My Work</h3>
            <div className="work_con">
          
             <Swiper

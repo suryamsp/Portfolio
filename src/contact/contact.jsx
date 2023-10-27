@@ -3,7 +3,8 @@ import  "./contact.css";
 
 export function Contact(){
     return(
-       <div className="con_contain">
+<div className="con_contain">
+<div className="con-div">
          <div className="big-con">
             <div className="small-con">
             <h2 className="con_tit1">Newsletter</h2>
@@ -16,6 +17,7 @@ export function Contact(){
           </div>        
         </div>
        </div>
+</div>
     );
 }
 

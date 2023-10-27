@@ -14,6 +14,7 @@ import { ThemeProvider, createTheme } from '@mui/material';
 import Paper from '@mui/material/Paper';
 
 
+
 function App() {
   const [mode,setmode]=useState("dark");
   const darkTheme =createTheme({
@@ -27,9 +28,10 @@ function App() {
   }
 
   return (
-   
-    <div id="home">
-<Top_Bar mode={mode} setmode={setmode} />
+    <ThemeProvider theme={darkTheme}>
+    <Paper elevation={4} >
+    <div id="home" >
+<Top_Bar mode={mode} setmode={setmode} sty={sty}/>
   <Intro sty={sty} />
 <About  sty={sty} />
 <Service sty={sty}  />
@@ -38,7 +40,8 @@ function App() {
  <Contact  sty={sty} />
 <Message  sty={sty} />
    </div>
- 
+    </Paper >
+  </ThemeProvider >
   )
 }
 

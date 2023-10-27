@@ -1,15 +1,12 @@
 
-   .logo{
-
+ .logo{
      width: 150px;
      height: 90px;
    }
    i{
- 
    color: black;
    font-size:30px; 
    margin-left:10px;
-   margin-right:100px;
    }
    html {
     scroll-behavior: smooth;
@@ -20,3 +17,16 @@
 .navbar{
   padding: 0px;
 }
+#theme{
+  margin-left:20px ;
+  margin-right: 100px;
+  color: black;
+}
+
+@media only screen and (max-width:600px){
+  #theme{
+    display: flex;
+    justify-content: flex-start;
+  margin: 0px;
+  }
+} 

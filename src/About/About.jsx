@@ -11,7 +11,7 @@ export function About({sty}) {
       <div className='Third_bar_con'>
         <p className='titl1'>ABOUT ME</p>
         <p className='titl2'>WHY HIRE ME FOR YOUR NEXT PROJECT</p>
-        <p className='titl3'>Iam 25 years old creative SOFTWARE DEVELOPER. I bulid clean, appealing, and function interfaces which comply with the latest web standard </p>
+        <p className='titl3'style={sty}>Iam 25 years old creative SOFTWARE DEVELOPER. I bulid clean, appealing, and function interfaces which comply with the latest web standard </p>
         <div className="about-btn"><a className='btns'
           href="./img/surya_resume.pdf"
           download

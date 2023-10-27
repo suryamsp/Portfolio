@@ -2,6 +2,7 @@
     overflow:hidden;
     position: relative;
     z-index:1;
+    max-width: 1350px;
 }
 .mess_con:before{
     content: url('/img/multi1.jpg');
@@ -83,7 +84,9 @@ input{
   font-size:30px;
   margin-top: 50px;
  }
-
+.con{
+    margin-top: 30px;
+}
 
 
 .form_btn:hover{
@@ -110,6 +113,7 @@ input{
     .line1{
         width: 350px;
         margin-top: 5px;
+
     }
     .line2{
         width: 350px;
@@ -120,23 +124,27 @@ input{
         margin-top: 5px;
         
     }
-
+.left-side{
+    justify-content: center;
+}
     .con{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin: 0px;
     }
     .form_btn{
         margin-top: 5px;
     }
     .details{
-        margin-top: 20px;
+        margin:20px 0px 0px 0px;
     }
     .form{
-        margin:0px;
-        width: 380px;
+padding: 0px;
+margin: 0px;
     }
-    .form{
-padding: 20px;
+    .containers{
+        display: flex;
     }
 
   }

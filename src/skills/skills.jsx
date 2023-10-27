@@ -50,7 +50,7 @@ export function Skills({sty}) {
   return (
     <div id="skill" className="skill_contain">
     <h2  className="skill_con1">My Skills Progress so far</h2>
-    <h3  className="skill_con2">My Skills</h3>
+    <h3  className="skill_con2" style={sty}>My Skills</h3>
     <div className="container">
   <Swiper
       // install Swiper modules
