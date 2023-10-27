@@ -92,8 +92,9 @@ p{
 
  @media only screen and (max-width:600px){ 
     .work_con{
-       margin-left: 0px; 
-       padding-left: 30px;       
+       margin: 0px; 
+       padding-left: 30px;   
+        padding:30px;
         }
         .cont{
             width: 330px;
