@@ -108,7 +108,8 @@
 
 .con_contain{
     height: 550px;
-}.big-con{
+}
+.big-con{
     padding: 5px 5px 5px 25px;
     display: flex;
     align-items: center;

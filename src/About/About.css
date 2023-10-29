@@ -44,6 +44,14 @@ color: rgb(7, 155, 7);
     font-size: 18px ;
     color: black;
   }
+.about-div{
+  display: flex;
+}
+  .high{
+    margin-left: 5px;
+    font-weight: bold;
+    color: orange;
+  }
 .btns{
   margin-top: 50px;
 }
@@ -122,14 +130,16 @@ label{
 .btns{
   margin-top: 50px;
 }
-.titl1,.titl2,.titl3,.about-btn{
+.titl1,.titl2,.about-btn{
   display: flex;
   justify-content: center;
 }
-.titl2,.titl3{
+.titl2{
   margin-left: 20px;
 }
-.titl3{
-  display: flex;
+.titl3,.titl4,.high{
+  font-size: 15px;
 }
+
+
 }
