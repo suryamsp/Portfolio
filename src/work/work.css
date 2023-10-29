@@ -94,7 +94,8 @@ p{
     .work_con{
        margin: 0px;   
        display: flex;
-       padding:10px;
+       justify-content: center;
+       padding:20px 0px 0px 50px;
         }
         .cont{
             width: 330px;
