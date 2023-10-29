@@ -8,7 +8,7 @@ export function Top_Bar({mode,setmode,sty}){
     return(
 
     <div className='nav-bar'>
-      <nav  className="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style={{maxWidth:"1350px"}} >
+      <nav  className="navbar navbar-expand-md navbar-dark fixed-top" style={{maxWidth:"1350px", backgroundColor:mode=="dark" ? 'black' : 'white' }} >
       <div id="navbar" className="container-fluid">
       <img className='logo' src='./img/logo.png'></img>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
