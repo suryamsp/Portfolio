@@ -12,10 +12,12 @@ import { Contact } from './contact/contact';
 import { Message } from './message/Message';
 import { ThemeProvider, createTheme } from '@mui/material';
 import Paper from '@mui/material/Paper';
+import store from "../public/Api/store.json";
 
 
 
 function App() {
+  const [data,setdata]=useState(store);
   const [mode,setmode]=useState("dark");
   const darkTheme =createTheme({
     palette: {
@@ -27,18 +29,20 @@ function App() {
     color: mode=="dark" ? "white" : "black"
   }
 
+  
+
   return (
     <ThemeProvider theme={darkTheme}>
     <Paper elevation={4} >
     <div id="home" >
-<Top_Bar mode={mode} setmode={setmode} sty={sty}/>
-  <Intro sty={sty} />
-<About  sty={sty} />
-<Service sty={sty}  />
-<Skills  sty={sty} /> 
-<Work  sty={sty} />
- <Contact  sty={sty} />
-<Message  sty={sty} />
+<Top_Bar mode={mode} setmode={setmode} sty={sty} data={data} />
+  <Intro sty={sty}  data={data} />
+<About  sty={sty}  data={data} />
+<Service sty={sty} data={data}   />
+<Skills  sty={sty}  data={data} /> 
+<Work  sty={sty}  data={data} />
+ <Contact  sty={sty} data={data}  />
+<Message  sty={sty}  data={data} />
    </div>
     </Paper >
   </ThemeProvider >

@@ -1,0 +1,161 @@
+{
+"store":[
+    { 
+        "Intro":{
+            "designation":"SOFTWARE DEVELOPER",
+            "hi":"Hey! I Am",
+            "name":"SURYA",
+            "self1":"Am software Developer passionate and",
+            "self2":"experienced in building Web application",
+            "intro_btn":"HIRE ME",
+            "img":"/img/pice.png"
+        
+    }},
+
+    {
+        "About":{
+            "ab_title":"ABOUT ME",
+            "why":"WHY HIRE ME FOR YOUR NEXT PROJECT",
+            "ab_intro":"Iam 25 years old creative",
+            "ab_intro2":"SOFTWARE DEVELOPER.",
+            "ab_intro3":"I bulid clean, appealing, and function interfaces which comply with the latest web standard",
+            "about_btn":"DOWNLOAD CV"
+    }},
+
+     {
+        "service":{
+            "ser_title":"WHAT SERVICE I OFFER YOU",
+            "ser_title1":"Service"
+                 },
+    
+                    "ser-detail":[{
+                        "img":"/img/web.png",
+                        "title":"Web Development",
+                        "summary":"As a web developer use codeing language like HTML,CSS,JavaScript,and Python to bulid websites and web applications."
+                    },
+                    {
+                        "img":"/img/apintigraion.png",
+                        "title":"Api Intergration",
+                        "summary":"I offer Api intergration service in existing applications or in software I create from scratch."
+                    },
+                    {
+                        "img":"/img/Software.png",
+                        "title":"Software Development",
+                        "summary":"I offer world-class custom software development service designed specifically for your business and ready to satisfy your exclusive needs."
+                    }]
+        },
+
+        {
+            "skill":
+            {
+                "skill_title":"My Skills Progress so far",
+                "skill_title1":"My Skills"
+            },
+    
+
+                                "skill-detail":[{
+                                "img":"/img/HTML.png",
+                                "tit":"HTML"
+                            },
+                            {
+                                "img":"/img/css.png",
+                                "tit":"CSS"
+                            },{
+                                "img":"/img/boot.png",
+                                "tit":"BOOTSTRAP"
+                            },{
+                                "img":"/img/git.png",
+                                "tit":"GIT"
+                            },
+                            {
+                                "img":"/img/js.png",
+                                "tit":"JAVA SCRIPT"
+                            },
+                            {
+                                "img":"/img/mongodb.png",
+                                "tit":"MONGO DB"
+                            },{
+                                "img":"/img/node.png",
+                                "tit":"NODE JS"
+                            },{
+                                "img":"/img/Python.png",
+                                "tit":"PYTHON"
+                            },{
+                                "img":"/img/React.png",
+                                "tit":"REACT"
+                            },
+                            {
+                                "img":"/img/sql.png",
+                                "tit":"SQL"
+                            },
+                            {
+                                "img":"/img/Vs.png",
+                                "tit":"VISUAL STUDIO"
+                            }]
+       },
+
+
+        {
+            "work":{
+                    "wo_title":"Check Out My Reacet Projects",
+                    "wo_title1":"My Work"
+                },
+
+                        "wo-detail":[{
+                            "imge":"./img/Untitled.png",
+                            "code":"HTML | CSS",
+                            "name":"Price Card Project",
+                            "sum":"To create the project by simply Html amd Css only. then button use hover reaction and price list low to premium ",
+                            "net":"https://pricecardmsp.netlify.app/",
+                            "git":"https://github.com/suryamsp/price_card.git"
+
+                        },
+                        {
+                            "imge":"./img/Untitled1.png",
+                            "code":"HTML | CSS | React",
+                            "name":"Add to Card Project",
+                            "sum":"To create the project by simple add to card list and remove list.use the Usestate hook to handle array to add card list ",
+                            "net":"https://addcardmsp.netlify.app/",
+                            "git":"https://github.com/suryamsp/Add_card.git"
+                        },
+                        {
+                            "imge":"./img/Untitled2.png",
+                            "code":"HTML | CSS | JavaScript",
+                            "name":"Calculator Project",
+                            "sum":"To create the project by simple design calculator.Then DOM methode use to calculate simple mathematical operation",
+                            "net":"https://calculatormsp.netlify.app/",
+                            "git":"https://github.com/suryamsp/calculator.git"
+                        },
+                        {
+                            "imge":"./img/Untitled3.png",
+                            "code":"HTML | CSS | React",
+                            "name":"Bootstarp Project",
+                            "sum":"To create the project Login page to refer bootstarp model. use the navigation to forget password and create password",
+                            "net":"https://loginmsp.netlify.app/",
+                            "git":"https://github.com/suryamsp/login_page.git"
+                            }]
+        },
+
+        {
+                "contact":{
+                    "co_title":"Newsletter",
+                    "co_title1":"Let's Work Together",
+                    "co_message":"Are you imperssed and want a project done,give a email me any time",
+                    "co_btn":"SUBSCRIBE NOW"
+        }},
+
+
+          {
+            "message":{
+                "me_title":"I Want To Hear From You",
+                "me_title1":"Contact Me",
+                "contact":"Contact Me:",
+                "con_detail":"8825968189",
+                "email":"Email Me:",
+                "email_detail":"murugesansuryamsp@gmail.com",
+                "location":"Location:",
+                "location_detail":"Chennai",
+                "me_btn":"SEND MESSAGE"
+            }}
+]
+}
