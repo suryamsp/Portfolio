@@ -1,7 +1,8 @@
 
  .logo{
-     width: 150px;
-     height: 90px;
+     width: 90px;
+     height: 70px;
+     padding: 10px 10px 10px 0px;
    }
    i{
    color: black;
@@ -18,8 +19,8 @@
   padding: 0px;
 }
 #theme{
-  margin-left:20px ;
-  margin-right: 100px;
+  margin-left:10px ;
+  margin-right: 20px;
   color: black;
 }
 

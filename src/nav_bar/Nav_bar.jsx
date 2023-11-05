@@ -10,7 +10,7 @@ export function Top_Bar({mode,setmode,sty}){
     <div className='nav-bar'>
       <nav className={mode == "dark" ? "navbar navbar-expand-md navbar-dark bg-dark fixed-top" : "navbar navbar-expand-md navbar-light bg-light fixed-top"} style={{maxWidth:"1350px" }}  >
       <div id="navbar" className="container-fluid">
-      <img className='logo' src='./img/logo.png'></img>
+      <img className='logo' src='./img/logo1.png'></img>
         <button className="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon "  ></span>
         </button>
