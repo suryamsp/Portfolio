@@ -11,11 +11,13 @@ export function About({sty,data}) {
       <div className='Third_bar_con'>
         <p className='titl1'>{data.store[1].About.ab_title}</p>
         <p className='titl2'>{data.store[1].About.why}</p>
-       <div className='about-div'>
+    <div className='about-flex'>
+    <div className='about-div'>
        <p className='titl3'style={sty}>{data.store[1].About.ab_intro}</p> 
        <p className='high'>{data.store[1].About.ab_intro2}</p>
        </div>
-       <p className='titl4'>{data.store[1].About.ab_intro3} </p>
+       <div><p className='titl4'>{data.store[1].About.ab_intro3} </p></div>
+    </div>
         <div className="about-btn"><a className='btns'
           href="./img/surya_resume.pdf"
           download

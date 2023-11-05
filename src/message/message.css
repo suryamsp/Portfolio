@@ -134,6 +134,7 @@ justify-content: center;
     }
 .left-side{
     justify-content: center;
+    margin-left: 0px;
 }
     .con{
         display: flex;

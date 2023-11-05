@@ -140,4 +140,8 @@ label{
 .titl3,.titl4,.high{
   font-size: 15px;
 }
+.about-flex{
+  display: grid;
+
+}
 }
