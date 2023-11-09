@@ -16,6 +16,7 @@ import store from "../public/Api/store.json";
 
 
 
+
 function App() {
   const [data,setdata]=useState(store);
   const [mode,setmode]=useState("dark");
@@ -35,6 +36,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
     <Paper elevation={4} >
     <div id="home" >
+
 <Top_Bar mode={mode} setmode={setmode} sty={sty} data={data} />
   <Intro sty={sty}  data={data} />
 <About  sty={sty}  data={data} />
