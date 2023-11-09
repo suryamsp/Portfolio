@@ -32,8 +32,8 @@ export function Top_Bar({mode,setmode,sty}){
             <a className="nav-link js-scroll-trigger"  style={sty} href="#skill" onClick={(e)=>Close(e)}>SKILLS</a>
             <a className="nav-link js-scroll-trigger" style={sty}  href="#work" onClick={(e)=>Close(e)}>MY WORK</a>
             <a className="nav-link js-scroll-trigger"  style={sty} href="#contact" onClick={(e)=>Close(e)}>CONTACT</a>
-          <i className="bi bi-github" style={sty} ></i>
-          <Button id='theme' onClick={()=> setmode(mode=="light" ? "dark" : "light")} color="inherit"
+          <i className="bi bi-github" style={sty} onClick={(e)=>Close(e)} ></i>
+          <Button id='theme' onClick={(e)=> {setmode(mode=="light" ? "dark" : "light"),Close(e)}} color="inherit"
           
           >{mode== "light" ? <Brightness7Icon sx={{fontSize:"30px"}} /> : <Brightness4Icon sx={{fontSize:"30px"}} style={sty}/>} </Button>   
           </div>
