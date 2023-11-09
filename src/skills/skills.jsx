@@ -7,46 +7,7 @@ import 'swiper/css/bundle';
 
 export function Skills({sty,data}) {
 
-    const img=[{
-        "img":"/img/HTML.png",
-        "tit":"HTML"
-    },
-    {
-        "img":"/img/css.png",
-        "tit":"CSS"
-    },{
-        "img":"/img/boot.png",
-        "tit":"BOOTSTRAP"
-    },{
-        "img":"/img/git.png",
-        "tit":"GIT"
-    },
-    {
-        "img":"/img/js.png",
-        "tit":"JAVA SCRIPT"
-    },
-    {
-        "img":"/img/mongodb.png",
-        "tit":"MONGO DB"
-    },{
-        "img":"/img/node.png",
-        "tit":"NODE JS"
-    },{
-        "img":"/img/Python.png",
-        "tit":"PYTHON"
-    },{
-        "img":"/img/React.png",
-        "tit":"REACT"
-    },
-    {
-        "img":"/img/sql.png",
-        "tit":"SQL"
-    },
-    {
-        "img":"/img/Vs.png",
-        "tit":"VISUAL STUDIO"
-    }
-];
+  
   return (
     <div id="skill" className="skill_contain">
     <h2  className="skill_con1">{data.store[3].skill.skill_title}</h2>

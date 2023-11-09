@@ -2,21 +2,7 @@ import "./service.css"
 
 export function Service({sty,data}) {
 
-  const datas=[{
-    "img":"/img/web.png",
-    "title":"Web Development",
-    "summary":"As a web developer use codeing language like HTML,CSS,JavaScript,and Python to bulid websites and web applications."
-  },
-  {
-    "img":"/img/apintigraion.png",
-    "title":"Api Intergration",
-    "summary":"I offer Api intergration service in existing applications or in software I create from scratch."
-  },
-  {
-    "img":"/img/Software.png",
-    "title":"Software Development",
-    "summary":"I offer world-class custom software development service designed specifically for your business and ready to satisfy your exclusive needs."
-  }];
+  
 
   return (
     <div className="main_contain" id="service">

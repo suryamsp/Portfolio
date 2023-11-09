@@ -8,39 +8,7 @@ import 'swiper/css/bundle';
 
 export function Work({sty,data}){
 
-    const work=[{
-        "imge":"./img/Untitled.png",
-        "code":"HTML | CSS",
-        "name":"Price Card Project",
-        "sum":"To create the project by simply Html amd Css only. then button use hover reaction and price list low to premium ",
-        "net":"https://pricecardmsp.netlify.app/",
-        "git":"https://github.com/suryamsp/price_card.git"
-    
-    },
-    {
-        "imge":"./img/Untitled1.png",
-        "code":"HTML | CSS | React",
-        "name":"Add to Card Project",
-        "sum":"To create the project by simple add to card list and remove list.use the Usestate hook to handle array to add card list ",
-        "net":"https://addcardmsp.netlify.app/",
-        "git":"https://github.com/suryamsp/Add_card.git"
-    },
-    {
-        "imge":"./img/Untitled2.png",
-        "code":"HTML | CSS | JavaScript",
-        "name":"Calculator Project",
-        "sum":"To create the project by simple design calculator.Then DOM methode use to calculate simple mathematical operation",
-        "net":"https://calculatormsp.netlify.app/",
-        "git":"https://github.com/suryamsp/calculator.git"
-    },{
-        "imge":"./img/Untitled3.png",
-        "code":"HTML | CSS | React",
-        "name":"Bootstarp Project",
-        "sum":"To create the project Login page to refer bootstarp model. use the navigation to forget password and create password",
-        "net":"https://loginmsp.netlify.app/",
-        "git":"https://github.com/suryamsp/login_page.git"
-        },
-]
+
     return(
         <div id="work"  className='work-cont'>
               <h2  className="ser_con1">{data.store[4].work.wo_title}</h2>
