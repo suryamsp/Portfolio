@@ -1,6 +1,11 @@
 body{
   margin: 0px;
-  background-color: white;
+background-image: url('./img/fun2.gif');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
 }
 
 html {
@@ -11,3 +16,14 @@ html {
 .nav_btn:hover{
   color: green;
  }
+ body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.loading{
+
+
+}
+
+

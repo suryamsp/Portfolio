@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -17,9 +17,25 @@ import store from "../public/Api/store.json";
 
 
 
-function App() {
-  const [data,setdata]=useState(store);
+
+function App({}) {
+  
+  
+  const [data,setdata]=useState(null);
+ 
   const [mode,setmode]=useState("dark");
+  
+
+  const getdata=()=>{
+    fetch('http://localhost:2604/')
+   .then((data) => data.json())
+   .then((mvs) => setdata(mvs));}
+  useEffect(()=> getdata(),[]);
+    
+  
+  
+  // console.log(list);
+
   const darkTheme =createTheme({
     palette: {
       mode: mode,
@@ -30,26 +46,38 @@ function App() {
     color: mode=="dark" ? "white" : "black"
   }
 
-  
+
 
   return (
     <ThemeProvider theme={darkTheme}>
     <Paper elevation={4} >
     <div id="home" >
 
-<Top_Bar mode={mode} setmode={setmode} sty={sty} data={data} />
-  <Intro sty={sty}  data={data} />
+{data ? <><Top_Bar mode={mode} setmode={setmode} sty={sty}  />
+   <Intro sty={sty}  data={data} />
 <About  sty={sty}  data={data} />
 <Service sty={sty} data={data}   />
 <Skills  sty={sty}  data={data} /> 
 <Work  sty={sty}  data={data} />
  <Contact  sty={sty} data={data}  />
 <Message  sty={sty}  data={data} />
+</> 
+: <><Load /></>}
    </div>
     </Paper >
   </ThemeProvider >
   )
 }
+
+
+function Load(){
+  return(
+    <div>
+
+    </div>
+  );
+}
+
 
 export default App
 

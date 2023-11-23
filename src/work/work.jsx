@@ -11,8 +11,8 @@ export function Work({sty,data}){
 
     return(
         <div id="work"  className='work-cont'>
-              <h2  className="ser_con1">{data.store[4].work.wo_title}</h2>
-         <h3  className="ser_con2" style={sty} >{data.store[4].work.wo_title1}</h3>
+              <h2  className="ser_con1">{data?.[0].store?.[4].work.wo_title}</h2>
+         <h3  className="ser_con2" style={sty} >{data?.[0].store?.[4].work.wo_title1}</h3>
 <div className='work-flex'>
 <div className="work_con">
             <Swiper
@@ -30,7 +30,7 @@ export function Work({sty,data}){
        }    
    }}
       loop={true}
-      >  {(data.store[4]["wo-detail"]).map((dta,index)=>( <SwiperSlide key={index} ><div key={index} className="cont">
+      >  {(data?.[0].store?.[4]["wo-detail"]).map((dta,index)=>( <SwiperSlide key={index} ><div key={index} className="cont">
       <img className="work_img" src={dta.imge} />
       <div className='text-con'> 
       <p className="work_con1">{dta.code}</p>

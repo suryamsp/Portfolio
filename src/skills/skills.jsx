@@ -10,8 +10,8 @@ export function Skills({sty,data}) {
   
   return (
     <div id="skill" className="skill_contain">
-    <h2  className="skill_con1">{data.store[3].skill.skill_title}</h2>
-    <h3  className="skill_con2" style={sty}>{data.store[3].skill.skill_title1}</h3>
+    <h2  className="skill_con1">{data?.[0].store?.[3].skill.skill_title}</h2>
+    <h3  className="skill_con2" style={sty}>{data?.[0].store?.[3].skill.skill_title1}</h3>
     <div className="container">
   <Swiper
       // install Swiper modules
@@ -32,7 +32,7 @@ export function Skills({sty,data}) {
       loop={true}
    
     >
-          {(data.store[3]["skill-detail"]).map((dta,index)=> <SwiperSlide key={index}  ><div key={index} className="skill-con">
+          {(data?.[0].store?.[3]["skill-detail"]).map((dta,index)=> <SwiperSlide key={index}  ><div key={index} className="skill-con">
         <div className="circle"><img className='skill_img' src={dta.img} /></div>
         <h3 className="skill-tit">{dta.tit}</h3>
     </div></SwiperSlide>)}
