@@ -27,7 +27,7 @@ function App({}) {
   
 
   const getdata=()=>{
-    fetch('http://localhost:2604/')
+    fetch('https://portfolio-back-zeta.vercel.app/')
    .then((data) => data.json())
    .then((mvs) => setdata(mvs));}
   useEffect(()=> getdata(),[]);
