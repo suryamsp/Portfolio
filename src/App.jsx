@@ -12,7 +12,7 @@ import { Contact } from './contact/contact';
 import { Message } from './message/Message';
 import { ThemeProvider, createTheme } from '@mui/material';
 import Paper from '@mui/material/Paper';
-import store from "../public/Api/store.json";
+
 
 
 
@@ -53,20 +53,32 @@ function App({}) {
     <Paper elevation={4} >
     <div id="home" >
 
-{data ? <><Top_Bar mode={mode} setmode={setmode} sty={sty}  />
-   <Intro sty={sty}  data={data} />
-<About  sty={sty}  data={data} />
-<Service sty={sty} data={data}   />
-<Skills  sty={sty}  data={data} /> 
-<Work  sty={sty}  data={data} />
- <Contact  sty={sty} data={data}  />
-<Message  sty={sty}  data={data} />
-</> 
-: <><Load /></>}
+    {data ? (
+        <>
+          <Top_Bar mode={mode} setmode={setmode} sty={sty} />
+          <Intro sty={sty} data={data} />
+          <About sty={sty} data={data} />
+          <Service sty={sty} data={data} />
+          <Skills sty={sty} data={data} />
+          <Work sty={sty} data={data} />
+          <Contact sty={sty} data={data} />
+          <Message sty={sty} data={data} />
+        </>
+      ) : (
+        <Load />
+      )}
    </div>
     </Paper >
   </ThemeProvider >
   )
+}
+
+function Load(){
+  return(
+    <div>
+      
+    </div>
+  );
 }
 
 

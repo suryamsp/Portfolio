@@ -32,9 +32,9 @@ export function Top_Bar({mode,setmode,sty}){
             <a className="nav-link js-scroll-trigger"  style={sty} href="#skill" onClick={(e)=>Close(e)}>SKILLS</a>
             <a className="nav-link js-scroll-trigger" style={sty}  href="#work" onClick={(e)=>Close(e)}>MY WORK</a>
             <a className="nav-link js-scroll-trigger"  style={sty} href="#contact" onClick={(e)=>Close(e)}>CONTACT</a>
-            <button href="https://github.com/suryamsp/" onClick={(e) => Close(e)}>
+            <a href="https://github.com/suryamsp/" target='blank'  onClick={(e) => Close(e)}>
   <i className="bi bi-github" style={sty}></i>
-</button>
+</a>
 
           <Button id='theme' onClick={(e)=> {setmode(mode=="light" ? "dark" : "light"),Close(e)}} color="inherit"
           
