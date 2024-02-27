@@ -70,15 +70,6 @@ function App({}) {
 }
 
 
-function Load(){
-  return(
-    <div>
-
-    </div>
-  );
-}
-
-
 export default App
 
 
