@@ -27,7 +27,7 @@ function App({}) {
   
 
   const getdata=()=>{
-    fetch('https://portfolio-back-zeta.vercel.app/')
+    fetch('https://portfolio-back-cdes.onrender.com/')
    .then((data) => data.json())
    .then((mvs) => setdata(mvs));}
   useEffect(()=> getdata(),[]);
