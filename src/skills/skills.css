@@ -2,7 +2,8 @@
   overflow:hidden;
     position: relative;
     z-index:1;
-    max-width: 1350px;
+    width: 100%;
+  max-width: 90vw; 
     padding-bottom: 30px;
 }
 .skill_contain:before{
