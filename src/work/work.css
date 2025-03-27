@@ -1,9 +1,11 @@
-.work-cont{
-overflow: hidden;
-position: relative;
-z-index: 1;
-max-width: 90vw;
+.work-cont {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 90vw; 
 }
+
 .work-cont:before{
     content: url("/img/background.png");
     z-index:-1;
