@@ -2,7 +2,7 @@
 overflow: hidden;
 position: relative;
 z-index: 1;
-max-width: 1350px;
+max-width: 1650px;
 }
 .work-cont:before{
     content: url("/img/background.png");
