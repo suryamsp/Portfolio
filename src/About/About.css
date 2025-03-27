@@ -1,14 +1,13 @@
+.Third_bar {
+  display: flex;
+  overflow: hidden;
+  height: 680px;
+  width: 100%; /* Ensures it takes full width of the parent */
+  max-width: 90vw; /* Prevents it from becoming too large */
+  position: relative;
+  z-index: 1;
+}
 
-  .Third_bar{
-    display: flex;
-    overflow: hidden;
-    height: 680px;
-
-  max-width: 90vw; 
-    position:relative;  
-    z-index:1;
-                                                                                  
-  }
   .Third_bar:before{
       content: url('/img/multi1.jpg');
       position:absolute;
